@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import { useDispatch } from 'react-redux';
-import { fetchContacts } from 'redax/contactsReduсer';
+import { fetchContacts } from 'redax/contactsThunk';
 
 import ContactForm from './ContactForm/ContactForm';
 

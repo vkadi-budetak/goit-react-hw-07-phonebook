@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redax/contactsReduсer';
+import { deleteContact } from 'redax/contactsThunk';
 
 export default function ContactItem({ contact }) {
   const dispatch = useDispatch();
